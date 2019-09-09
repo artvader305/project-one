@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_reason_for_visit" table="x_393641_employee_reimbursement" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reason_for_visit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Training</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursement</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-04 14:33:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc74bdffdb633300a7fe863239961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-04 14:33:00</sys_updated_on>
+            <value>training</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reason_for_visit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Supplier Visit</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursement</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-04 14:33:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4074bdffdb633300a7fe863239961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-04 14:33:00</sys_updated_on>
+            <value>supplier_visit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_reason_for_visit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer_visit</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursement</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-04 14:33:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c74bdffdb633300a7fe863239961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-04 14:33:00</sys_updated_on>
+            <value>customer_visit</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_reason_for_visit</element>
+            <name>x_393641_employee_reimbursement</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-04 14:33:00</sys_created_on>
+            <sys_id>4874bdffdb633300a7fe863239961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_reason_for_visit</sys_name>
+            <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+            <sys_update_name>sys_choice_x_393641_employee_reimbursement_u_reason_for_visit</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-04 14:33:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

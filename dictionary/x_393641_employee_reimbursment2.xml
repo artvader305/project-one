@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="reimbursment2" max_length="40" name="x_393641_employee_reimbursment2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Name" max_length="40" name="u_employee_name" type="string"/>
+        <element label="New File Attachment" max_length="40" name="u_file_attachment_18" type="file_attachment"/>
+        <element label="New File Attachment" max_length="40" name="u_file_attachment_19" type="file_attachment"/>
+        <element label="New File Attachment" max_length="40" name="u_file_attachment_20" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="low" label="Impact" max_length="40" name="u_impact" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1 - High" sequence="0" value="high"/>
+                <element inactive_on_update="false" label="2 - Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="3 - Low" sequence="2" value="low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="airbnb" label="Lodging" max_length="40" name="u_lodging" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Hotel" sequence="0" value="hotel"/>
+                <element inactive_on_update="false" label="Airbnb" sequence="1" value="airbnb"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Other Travel Type" max_length="40" name="u_other_travel" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Uber" sequence="0" value="uber"/>
+                <element inactive_on_update="false" label="Ferry" sequence="1" value="ferry"/>
+                <element inactive_on_update="false" label="Cab" sequence="2" value="cab"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="choose" label="Payment Method" max_length="40" name="u_payment_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Credit Card" sequence="0" value="credit_card"/>
+                <element inactive_on_update="false" label="Cash" sequence="1" value="cash"/>
+                <element inactive_on_update="false" label="Money Order" sequence="2" value="money_order"/>
+                <element inactive_on_update="false" label="Choose" sequence="3" value="choose"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Place of Visit" max_length="40" name="u_place_of_visit" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="training" label="Reason For Visit" max_length="40" name="u_reason_for_visit" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Training" sequence="0" value="training"/>
+                <element inactive_on_update="false" label="Supplier Visit" sequence="1" value="supplier_visit"/>
+                <element inactive_on_update="false" label="Customer Visit" sequence="2" value="customer_visit"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_1" type="string"/>
+        <element label="Total Cost" max_length="40" name="u_total_cost" type="integer"/>
+        <element label="Total Meal Cost" max_length="40" name="u_total_meal_cost" type="integer"/>
+        <element label="Total Travel Cost" max_length="40" name="u_total_travel_cost" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Travel End" max_length="40" name="u_travel_end" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="car" label="Travel Method" max_length="40" name="u_travel_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Plane" sequence="0" value="plane"/>
+                <element inactive_on_update="false" label="Train" sequence="1" value="train"/>
+                <element inactive_on_update="false" label="Bus" sequence="2" value="bus"/>
+                <element inactive_on_update="false" label="Car" sequence="3" value="car"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Travel Start" max_length="40" name="u_travel_start" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="personal_car" label="Travel Type" max_length="40" name="u_travel_type" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="First Class" sequence="0" value="first_class"/>
+                <element inactive_on_update="false" label="Business Class" sequence="1" value="business_class"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Economy Class" sequence="2" value="economy_class"/>
+                <element inactive_on_update="false" label="Class 1" sequence="3" value="class_1"/>
+                <element inactive_on_update="false" label="Class 2" sequence="4" value="class_2"/>
+                <element inactive_on_update="false" label="Class 3" sequence="5" value="class_3"/>
+                <element inactive_on_update="false" label="Luxury Seater" sequence="6" value="luxury_seater"/>
+                <element inactive_on_update="false" label="Full Seater" sequence="7" value="full_seater"/>
+                <element inactive_on_update="false" label="Semi Seater" sequence="8" value="semi_seater"/>
+                <element inactive_on_update="false" label="Personal Car" sequence="9" value="personal_car"/>
+                <element inactive_on_update="false" label="Rental Car" sequence="10" value="rental_car"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="low" label="Urgency" max_length="40" name="u_urgency" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1 - High" sequence="0" value="high"/>
+                <element inactive_on_update="false" label="2 - Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="3 - Low" sequence="2" value="low"/>
+            </choice>
+        </element>
+    </element>
+</database>

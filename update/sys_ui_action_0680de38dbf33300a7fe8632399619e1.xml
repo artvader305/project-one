@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>sysverb_import_parameter_sets</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style>primary</list_style>
+        <name>Import Contacts</name>
+        <onclick>importSets()</onclick>
+        <order>100</order>
+        <script><![CDATA[// function callLoadUpdateSet() {
+// 	var url = new GlideURL('upload.do');
+// 	url.addParam('sysparm_referring_url', "sys_remote_update_set_list.do?sysparm_fixed_query=sys_class_name=sys_remote_update_set");
+// 	url.addParam('sysparm_target', "sys_remote_update_set");
+// 	g_navigation.open(url.getURL());
+// }
+
+// callLoadUpdateSet()
+
+// gs.hasRole('admin')
+
+function importSets() {
+	
+	var tableName = 'sys_atf_parameter_set';
+	var modelId = g_form.getUniqueValue();
+	
+	var dialogWindow = new GlideModal('import_parameter_sets');
+	dialogWindow.setSize(900);
+	dialogWindow.setTitle("Import Test Run Data Sets");
+	dialogWindow.setPreference('sysparm_referring_url', 'sys_atf_parameter_set_list.do');
+	dialogWindow.setPreference('sysparm_target', tableName);
+	dialogWindow.setPreference('focusTrap', true);
+	dialogWindow.setPreference('sysparm_variable_model_id', modelId);
+	dialogWindow.render();
+}
+
+
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 19:11:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0680de38dbf33300a7fe8632399619e1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Import Contacts</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_update_name>sys_ui_action_0680de38dbf33300a7fe8632399619e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 08:49:00</sys_updated_on>
+        <table>x_393641_employee_reimbursment2</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

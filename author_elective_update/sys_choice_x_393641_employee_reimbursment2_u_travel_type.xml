@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_travel_type" table="x_393641_employee_reimbursment2" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 1</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6107fd59db73b300a7fe863239961906</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>First Class</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d07fd59db73b300a7fe863239961917</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>first_class</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Class</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e507fd59db73b300a7fe863239961919</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>business_class</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed07fd59db73b300a7fe863239961907</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a907fd59db73b300a7fe863239961909</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Economy Class</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a107fd59db73b300a7fe86323996191b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>economy_class</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Class 1</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d07fd59db73b300a7fe86323996191c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>class_1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Class 2</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2907fd59db73b300a7fe86323996191e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>class_2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Class 3</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e107fd59db73b300a7fe863239961920</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>class_3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Luxury Seater</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad07fd59db73b300a7fe863239961921</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>luxury_seater</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Full Seater</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6907fd59db73b300a7fe863239961923</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>full_seater</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Semi Seater</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2507fd59db73b300a7fe863239961925</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>semi_seater</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Personal Car</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed07fd59db73b300a7fe863239961926</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>personal_car</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_travel_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rental Car</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursment2</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a907fd59db73b300a7fe863239961928</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:36:20</sys_updated_on>
+            <value>rental_car</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_travel_type</element>
+            <name>x_393641_employee_reimbursment2</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:35:11</sys_created_on>
+            <sys_id>a907fd59db73b300a7fe863239961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_travel_type</sys_name>
+            <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+            <sys_update_name>sys_choice_x_393641_employee_reimbursment2_u_travel_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:35:11</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

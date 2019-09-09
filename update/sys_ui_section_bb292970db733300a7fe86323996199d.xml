@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New Section" section_id="bb292970db733300a7fe86323996199d" sys_domain="global" table="x_393641_employee_reimbursement" version="3" view="Manager_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_13</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 02:02:16</sys_created_on>
+            <sys_id>7dfea738db7b3300a7fe863239961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">bb292970db733300a7fe86323996199d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 02:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approver</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 02:02:16</sys_created_on>
+            <sys_id>fdfea738db7b3300a7fe863239961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">bb292970db733300a7fe86323996199d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 02:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 02:02:16</sys_created_on>
+            <sys_id>71fea738db7b3300a7fe863239961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">bb292970db733300a7fe86323996199d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 02:02:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 02:02:16</sys_created_on>
+            <sys_id>f1fea738db7b3300a7fe863239961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">bb292970db733300a7fe86323996199d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 02:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_department</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 02:02:16</sys_created_on>
+            <sys_id>75fea738db7b3300a7fe863239961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">bb292970db733300a7fe86323996199d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 02:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 02:02:16</sys_created_on>
+            <sys_id>f5fea738db7b3300a7fe863239961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">bb292970db733300a7fe86323996199d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 02:02:16</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 02:02:16</sys_created_on>
+            <sys_id>79fea738db7b3300a7fe863239961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">bb292970db733300a7fe86323996199d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 02:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 02:02:16</sys_created_on>
+            <sys_id>f9fea738db7b3300a7fe863239961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">bb292970db733300a7fe86323996199d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 02:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_393641_employee_reimbursement</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-07 16:17:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb292970db733300a7fe86323996199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+            <sys_update_name>sys_ui_section_bb292970db733300a7fe86323996199d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-07 16:17:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Manager View" name="Manager_View">4f32ed00db337300a7fe8632399619b9</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

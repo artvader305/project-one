@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_other_modes_of_travel" table="x_393641_employee_reimbursement" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_other_modes_of_travel</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>None</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursement</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-07 16:28:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c9be134db733300a7fe8632399619a2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-07 16:49:36</sys_updated_on>
+            <value>none</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_other_modes_of_travel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Uber</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursement</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-04 16:30:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>886f4abbdbe33300a7fe863239961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-04 16:30:42</sys_updated_on>
+            <value>uber_1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_other_modes_of_travel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cab</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursement</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-04 16:30:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>086f4abbdbe33300a7fe863239961996</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-04 16:30:42</sys_updated_on>
+            <value>cab_1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_other_modes_of_travel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ferry</label>
+            <language>en</language>
+            <name>x_393641_employee_reimbursement</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-04 16:30:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c06f4abbdbe33300a7fe863239961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-04 16:30:42</sys_updated_on>
+            <value>ferry_1</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_other_modes_of_travel</element>
+            <name>x_393641_employee_reimbursement</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-04 16:30:42</sys_created_on>
+            <sys_id>c06f4abbdbe33300a7fe863239961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_other_modes_of_travel</sys_name>
+            <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+            <sys_update_name>sys_choice_x_393641_employee_reimbursement_u_other_modes_of_travel</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-04 16:30:42</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

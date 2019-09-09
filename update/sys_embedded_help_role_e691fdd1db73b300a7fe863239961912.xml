@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_393641_employee.reimbursment2_user" name="x_393641_employee.reimbursment2_user">e291fdd1db73b300a7fe86323996190f</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 06:11:30</sys_created_on>
+        <sys_id>e691fdd1db73b300a7fe863239961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e291fdd1db73b300a7fe86323996190f</sys_name>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e691fdd1db73b300a7fe863239961912</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 06:11:30</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

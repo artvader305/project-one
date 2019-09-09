@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Receipts" section_id="5076adbcdb333300a7fe8632399619fd" sys_domain="global" table="x_393641_employee_reimbursement" version="3" view="Manager_View">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>57433595db73b300a7fe8632399619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <text>Please attach receipts.</text>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>5f433595db73b300a7fe8632399619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <text/>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>57433595db73b300a7fe8632399619b3</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>5f433595db73b300a7fe8632399619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts" display_value="Receipts" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">5076adbcdb333300a7fe8632399619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_file_attachment_1</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>df433595db73b300a7fe8632399619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts" display_value="Receipts" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">5076adbcdb333300a7fe8632399619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_file_attachment_4</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>53433595db73b300a7fe8632399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts" display_value="Receipts" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">5076adbcdb333300a7fe8632399619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_file_attachment_5</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>d3433595db73b300a7fe8632399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts" display_value="Receipts" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">5076adbcdb333300a7fe8632399619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_file_attachment_11</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>57433595db73b300a7fe8632399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts" display_value="Receipts" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">5076adbcdb333300a7fe8632399619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>d7433595db73b300a7fe8632399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts" display_value="Receipts" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">5076adbcdb333300a7fe8632399619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>5f433595db73b300a7fe8632399619b3</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>5b433595db73b300a7fe8632399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts" display_value="Receipts" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">5076adbcdb333300a7fe8632399619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_file_attachment_6</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>db433595db73b300a7fe8632399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts" display_value="Receipts" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">5076adbcdb333300a7fe8632399619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_file_attachment_7</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>5f433595db73b300a7fe8632399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts" display_value="Receipts" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">5076adbcdb333300a7fe8632399619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_file_attachment_8</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>df433595db73b300a7fe8632399619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts" display_value="Receipts" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">5076adbcdb333300a7fe8632399619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_file_attachment_9</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 06:18:56</sys_created_on>
+            <sys_id>53433595db73b300a7fe8632399619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts" display_value="Receipts" name="x_393641_employee_reimbursement" sys_domain="global" view="4f32ed00db337300a7fe8632399619b9">5076adbcdb333300a7fe8632399619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 06:18:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Receipts</caption>
+            <header>false</header>
+            <name>x_393641_employee_reimbursement</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-07 16:05:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5076adbcdb333300a7fe8632399619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Receipts</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+            <sys_update_name>sys_ui_section_5076adbcdb333300a7fe8632399619fd</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-07 16:05:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Manager View" name="Manager_View">4f32ed00db337300a7fe8632399619b9</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Add Total Cost Amount</description>
+        <field>u_total_cost</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Add Total Cost Amount</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+     if (newValue == '') {
+         return;
+}
+	
+// 	var a = parseInt(g_form.getIntValue('u_transportation_cost'));
+
+// 	var b = parseInt(g_form.getIntValue('u_housing_cost'));
+
+// 	var c = parseInt(g_form.getIntValue('u_meal_cost'));
+
+// 	var d = parseInt(g_form.getIntValue('u_other_cost'));
+	
+	var a = g_form.getIntValue('total_transportation_cost');
+
+	var b = g_form.getIntValue('total_lodging_cost');
+
+	var c = g_form.getIntValue('total_meals_cost');
+
+	var d = g_form.getIntValue('other_cost');
+	
+	var e = a+b+c+d;
+
+	g_form.setValue('u_total_cost',e);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 20:30:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03b587ffdba73300a7fe86323996190d</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Add Total Cost Amount</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_update_name>sys_script_client_03b587ffdba73300a7fe86323996190d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 20:42:43</sys_updated_on>
+        <table>x_393641_employee_reimbursement</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</application>
+        <file_path/>
+        <instance_id>16410a3fdbcafbc80ae3ac44d496197c</instance_id>
+        <instance_name>dev88690</instance_name>
+        <name>sys_script_client_03b587ffdba73300a7fe86323996190d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Add Total Cost Amount&lt;/description&gt;&lt;field&gt;u_total_cost&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Add Total Cost Amount&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+     if (newValue == '') {
+         return;
+}
+	
+// 	var a = parseInt(g_form.getIntValue('u_transportation_cost'));
+
+// 	var b = parseInt(g_form.getIntValue('u_housing_cost'));
+
+// 	var c = parseInt(g_form.getIntValue('u_meal_cost'));
+
+// 	var d = parseInt(g_form.getIntValue('u_other_cost'));
+	
+	var a = g_form.getIntValue('total_transportation_cost');
+
+	var b = g_form.getIntValue('total_lodging_cost');
+
+	var c = g_form.getIntValue('total_meals_cost');
+
+	var d = g_form.getIntValue('other_cost');
+	
+	var e = a+b+c+d;
+
+	g_form.setValue('u_total_cost',e);
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-04 20:30:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;03b587ffdba73300a7fe86323996190d&lt;/sys_id&gt;&lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add Total Cost Amount&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee"&gt;1420bd3bdb633300a7fe86323996195f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Travel Reimbursement"&gt;1420bd3bdb633300a7fe86323996195f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_03b587ffdba73300a7fe86323996190d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-07 20:42:43&lt;/sys_updated_on&gt;&lt;table&gt;x_393641_employee_reimbursement&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2136836684</payload_hash>
+        <record_name>Add Total Cost Amount</record_name>
+        <reverted_from/>
+        <source>1820bd3bdb633300a7fe863239961961</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 20:42:43</sys_created_on>
+        <sys_id>09d566fcdb373300a7fe863239961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d0d76f7800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 20:42:43</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>81d566fc48373300e4d09d870ee98119</update_guid>
+        <update_guid_history>81d566fc48373300e4d09d870ee98119:-2136836684,bea5aebce6373300382af61ccc2b10af:318408032,74152abcb8373300bd494acb5dfd4804:1150939050,5aee8638eff3330099e114ec675ee8fe:-391663969,b6be46384ff3330016feee1e778424ec:1190422787,26aecef4f5f333008de6f5de30aed4ed:-896718335,c47ecab498f3330007bb6c07261c6191:-391663969,220ec2f4a9f33300259c773ff343905a:-1513044056,41de353881b33300daf0560869a07bc2:1983102687,764ef1f4aeb333001280564bea785f23:-844652089,e98c7d34d3b33300877a91080c5685ca:1174368061,28ebbd3401b33300d1905e62447b3206:-370772483,0cabb53499b333003a74f3fc5df73b1e:-1401651974,f21bb97012b333005de7a94ead645d60:-1094632482,4a4cfbccae3b73002b2bcd966e83f61b:-1284556090,805463841cf77300c99161d43de6209c:1749103972,f701f2888b37730010083f095b0d4538:70227392,f50eee84f53773009f3b0f34767ebdf9:648022528,078b6a8026377300a5d1afc134c3291c:1916769954,4e0226c8b5f37300a2165318f3dd3cf9:-516578133,1a3122c8c3f37300f530193345127f3f:2099209947,991a34885c7f33003f13bae17349a1fa:-4380097,dd68fc04767f3300c6983ee19efae1b5:-1834015867,cea2fcc0cf7f33009fc2ea98c4d57b12:1433998861,d918cf738fe73300180867d35a52800b:1121372387,17d7cb73fbe73300c4e09af8f8fdcbf2:226881345,1e460b338fe73300c4d9c59d99facf4c:-1855962180,ba36c733f5e733002636fe30a00e96f6:80647967</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 21:08:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>03deb3fdfd034a1e81edecaed6444359</sys_id>
+        <sys_metadata>03b587ffdba73300a7fe86323996190d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Total Cost Amount</sys_name>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_parent display_value="reimbursement">4b40fdfbdb633300a7fe863239961978</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_scope_delete display_value="">1d4d7b595e9c4dceb39f6a5b0d0eee04</sys_scope_delete>
+        <sys_update_name>sys_script_client_03b587ffdba73300a7fe86323996190d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_03b587ffdba73300a7fe86323996190d">09d566fcdb373300a7fe863239961919</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 21:08:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

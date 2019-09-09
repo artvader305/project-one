@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Make Field Read Only Employee</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	//Assigned To field
+	//g_form.setReadOnly('assigned_to',true); // Read only Field
+	//g_form.setDisabled('assigned_to', true);
+	
+	//Opened field
+	//g_form.setReadOnly('u_opened',true); // Read only Field
+	//g_form.setDisabled('u_opened', true);
+	
+	//Closed field
+	//g_form.setReadOnly('u_closed',true); // Read only Field
+	//g_form.setDisabled('u_closed', true);
+	
+	//Opened by field
+	//g_form.setReadOnly('opened_by',true); // Read only Field
+	//g_form.setDisabled('opened_by', true);
+	
+	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 16:33:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>23799700dbf77300a7fe8632399619cd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Make Field Read Only Employee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_update_name>sys_script_client_23799700dbf77300a7fe8632399619cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 15:38:52</sys_updated_on>
+        <table>x_393641_employee_reimbursement</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

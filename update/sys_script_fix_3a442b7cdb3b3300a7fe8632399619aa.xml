@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>ERF Display Weekly Submissions</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[var count = new GlideAggregate('x_393641_employee_reimbursement');
+//count.addEncodedQuery('caller_id=f298d2d2c611227b0106be7f154bc8'); //caller_id=f298d2d2c611227b0106be7f154bc8
+
+count.addTrend('opened_at','Month');
+count.addAggregate('COUNT'); //Name of aggregate
+count.query();
+var incidents = 0;
+if(count.next()){
+    incidents = count.getAggregate('COUNT');
+}
+//gs.print("The number of incidents are " + incidents);
+
+gs.info("The number of incidents are " + incidents);
+
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 01:23:43</sys_created_on>
+        <sys_id>3a442b7cdb3b3300a7fe8632399619aa</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>ERF Display Weekly Submissions</sys_name>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_update_name>sys_script_fix_3a442b7cdb3b3300a7fe8632399619aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 01:45:33</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

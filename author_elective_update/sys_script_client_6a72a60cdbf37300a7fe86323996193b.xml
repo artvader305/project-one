@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_total_cost</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ERF Budget Exceeds</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+
+    }
+	
+	var answer = g_form.getValue('u_total_cost');
+	
+	g_form.showFieldMsg('u_total_cost', getMessage('This amount exceeds budget'), 'error');
+	
+}
+	
+	//var budgetNum = 3000;
+
+	
+// 	if(answer >= budgetNum) {
+	
+// 		//alert("This amount exceeds budget");
+		
+// 		g_form.showFieldMsg('u_total_cost', getMessage('This amount exceeds budget'), 'error');
+
+// 	} else {
+		
+// 		//alert("This amount is within budget");
+		
+// 		g_form.showFieldMsg('u_total_cost', getMessage('This amount meets budget'), 'error');
+// 	}
+	
+// }
+	
+	
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 12:36:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a72a60cdbf37300a7fe86323996193b</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>ERF Budget Exceeds</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_update_name>sys_script_client_6a72a60cdbf37300a7fe86323996193b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 21:07:23</sys_updated_on>
+        <table>x_393641_employee_reimbursement</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</application>
+        <file_path/>
+        <instance_id>16410a3fdbcafbc80ae3ac44d496197c</instance_id>
+        <instance_name>dev88690</instance_name>
+        <name>sys_script_client_6a72a60cdbf37300a7fe86323996193b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_total_cost&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;ERF Budget Exceeds&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+
+    }
+	
+	var answer = g_form.getValue('u_total_cost');
+	
+	g_form.showFieldMsg('u_total_cost', getMessage('This amount exceeds budget'), 'error');
+	
+}
+	
+	//var budgetNum = 3000;
+
+	
+// 	if(answer &gt;= budgetNum) {
+	
+// 		//alert("This amount exceeds budget");
+		
+// 		g_form.showFieldMsg('u_total_cost', getMessage('This amount exceeds budget'), 'error');
+
+// 	} else {
+		
+// 		//alert("This amount is within budget");
+		
+// 		g_form.showFieldMsg('u_total_cost', getMessage('This amount meets budget'), 'error');
+// 	}
+	
+// }
+	
+	
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-05 12:36:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6a72a60cdbf37300a7fe86323996193b&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_name&gt;ERF Budget Exceeds&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee"&gt;1420bd3bdb633300a7fe86323996195f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Travel Reimbursement"&gt;1420bd3bdb633300a7fe86323996195f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_6a72a60cdbf37300a7fe86323996193b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-07 21:07:23&lt;/sys_updated_on&gt;&lt;table&gt;x_393641_employee_reimbursement&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-67527197</payload_hash>
+        <record_name>ERF Budget Exceeds</record_name>
+        <reverted_from/>
+        <source>1820bd3bdb633300a7fe863239961961</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 21:07:23</sys_created_on>
+        <sys_id>5e7baa34db773300a7fe8632399619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d0d8d8dbf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 21:07:23</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d67baa34507733009615a5bbfb1561be</update_guid>
+        <update_guid_history>d67baa34507733009615a5bbfb1561be:-67527197,0c2b62f0b377330063b6b5683326d2ab:-781111773,95eaae7043773300c762f3d36effa199:214921611,b6aaae703f773300e88e881d00e7d692:1165219974,29286270e37733003c14043dc7144079:-886979303,7b876270c3773300979f3238530dd9b0:1821154481,a567ae30d877330024b41fa6029af418:-989777177,ff07a630557733007ac057fb7433b115:1582767936,74ad4eb4ddf33300dc333640cc32386f:1621073548,bd6b46f073f33300df699718e826d10e:-1710371062,c02b4ef0b2f33300499487c8d35abd2a:1621073548,72aa02f0ebf333009d4e69ca6d51ad4a:-1253660092,402a42f0b2f33300746463582ef656c7:236958135,d0f98eb013f333003a2e6fe14a99afc9:1986081152,e3b806fcb8b333008f68e2c48c1a3261:-1681523255,d15646fcd5b33300f9450070b4e2ad26:792048109,6f168ef8a8b333006673dc0c568edfd9:1590174108,6f758ef8b9b33300f063f9775e3e1cd3:1032976492,2f828ef435b33300ec59e45b20d225e0:710485844,ab62c6f8f6b33300369280be606d03d8:-1949512401,522202f8b6b333006b0c33985c5cbd73:1754120644,65c3a60cbcf3730046c3f8f35c39ba64:2129838705,d8a3a64cdaf373000630cd8bbfafede3:-1041126378,4e532a0c0ff373007d96e4b4503f3cfd:537310935</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 21:09:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0db3e5353cdd4a289632c127095aa949</sys_id>
+        <sys_metadata>6a72a60cdbf37300a7fe86323996193b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERF Budget Exceeds</sys_name>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_parent display_value="reimbursement">4b40fdfbdb633300a7fe863239961978</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_scope_delete display_value="">1d4d7b595e9c4dceb39f6a5b0d0eee04</sys_scope_delete>
+        <sys_update_name>sys_script_client_6a72a60cdbf37300a7fe86323996193b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_6a72a60cdbf37300a7fe86323996193b">5e7baa34db773300a7fe8632399619be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 21:09:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

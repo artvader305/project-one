@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Make field "Critical" is Impact and Urgency are "High"</description>
+        <internal_name>erf_priority_critical</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>ERF Priority Critical</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 18:01:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e07a8b85dbb77300a7fe8632399619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERF Priority Critical</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_update_name>sys_hub_flow_e07a8b85dbb77300a7fe8632399619c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 18:01:11</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e07a8b85dbb77300a7fe8632399619c5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e07a8b85dbb77300a7fe8632399619c5"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e07a8b85dbb77300a7fe8632399619c5^sys_idNOT IN6c7a8b85dbb77300a7fe8632399619c6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e07a8b85dbb77300a7fe8632399619c5</id>
+        <name>ERF Priority Critical</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 18:01:11</sys_created_on>
+        <sys_id>6c7a8b85dbb77300a7fe8632399619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 18:01:11</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</application>
+        <file_path/>
+        <instance_id>16410a3fdbcafbc80ae3ac44d496197c</instance_id>
+        <instance_name>dev88690</instance_name>
+        <name>sys_hub_flow_e07a8b85dbb77300a7fe8632399619c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description>Make field "Critical" is Impact and Urgency are "High"</description><internal_name>erf_priority_critical</internal_name><label_cache>null</label_cache><latest_snapshot/><master_snapshot/><name>ERF Priority Critical</name><outputs/><remote_trigger_id/><run_as>user</run_as><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-08 18:01:11</sys_created_on><sys_domain>global</sys_domain><sys_id>e07a8b85dbb77300a7fe8632399619c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ERF Priority Critical</sys_name><sys_overrides/><sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package><sys_policy/><sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope><sys_update_name>sys_hub_flow_e07a8b85dbb77300a7fe8632399619c5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-08 18:01:11</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=e07a8b85dbb77300a7fe8632399619c5"/><sys_variable_value action="delete_multiple" query="document_key=e07a8b85dbb77300a7fe8632399619c5"/><sys_flow_cat_variable_model action="delete_multiple" query="id=e07a8b85dbb77300a7fe8632399619c5^sys_idNOT IN6c7a8b85dbb77300a7fe8632399619c6"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>e07a8b85dbb77300a7fe8632399619c5</id><name>ERF Priority Critical</name><sys_class_name>sys_flow_cat_variable_model</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-08 18:01:11</sys_created_on><sys_id>6c7a8b85dbb77300a7fe8632399619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-08 18:01:11</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>-666377443</payload_hash>
+        <record_name>ERF Priority Critical</record_name>
+        <reverted_from/>
+        <source>1820bd3bdb633300a7fe863239961961</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 18:01:11</sys_created_on>
+        <sys_id>647a030ddbb77300a7fe863239961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d120970710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 18:01:11</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>2c7a8b85e5b77300eeeb75d063358bc9</update_guid>
+        <update_guid_history>2c7a8b85e5b77300eeeb75d063358bc9:-666377443</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 05:01:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>04d9ddbf22bd4fa69b66aa57dfda8b49</sys_id>
+        <sys_metadata>e07a8b85dbb77300a7fe8632399619c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERF Priority Critical</sys_name>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_scope_delete display_value="">1d4d7b595e9c4dceb39f6a5b0d0eee04</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_e07a8b85dbb77300a7fe8632399619c5</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_e07a8b85dbb77300a7fe8632399619c5">647a030ddbb77300a7fe863239961933</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 05:01:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

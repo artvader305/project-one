@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_impact</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ERF Validate Amount</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   //If the form is loading or the new value of the changing field is empty exit the script
+   if (isLoading || newValue == '') {
+      return;
+   }
+	
+	if (g_form.getValue('u_impact') == 'high' && g_form.getValue('priority') == '1')
+   g_form.showFieldMsg('u_impact', 'Low impact now allowed with High priority');   
+	   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 10:33:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c0d6e51db77b300a7fe8632399619e4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>ERF Validate Amount</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_update_name>sys_script_client_0c0d6e51db77b300a7fe8632399619e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 10:50:12</sys_updated_on>
+        <table>x_393641_employee_reimbursment2</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</application>
+        <file_path/>
+        <instance_id>16410a3fdbcafbc80ae3ac44d496197c</instance_id>
+        <instance_name>dev88690</instance_name>
+        <name>sys_script_client_0c0d6e51db77b300a7fe8632399619e4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_impact&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;ERF Validate Amount&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   //If the form is loading or the new value of the changing field is empty exit the script
+   if (isLoading || newValue == '') {
+      return;
+   }
+	
+	if (g_form.getValue('u_impact') == 'high' &amp;&amp; g_form.getValue('priority') == '1')
+   g_form.showFieldMsg('u_impact', 'Low impact now allowed with High priority');   
+	   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-09 10:33:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0c0d6e51db77b300a7fe8632399619e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;ERF Validate Amount&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee"&gt;1420bd3bdb633300a7fe86323996195f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Travel Reimbursement"&gt;1420bd3bdb633300a7fe86323996195f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0c0d6e51db77b300a7fe8632399619e4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-09 10:50:12&lt;/sys_updated_on&gt;&lt;table&gt;x_393641_employee_reimbursment2&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1491285601</payload_hash>
+        <record_name>ERF Validate Amount</record_name>
+        <reverted_from/>
+        <source>1820bd3bdb633300a7fe863239961961</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 10:50:12</sys_created_on>
+        <sys_id>49617a95db77b300a7fe86323996192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d15a539190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 10:50:12</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>c1617a959b77b3004c7f3cf3eb0c8f2b</update_guid>
+        <update_guid_history>c1617a959b77b3004c7f3cf3eb0c8f2b:1491285601,ce10b2d17077b300853d502a2338457d:1070820839,642e2e912b77b300dad0fb41997214b9:-987362748,d9eda2d1b677b300bde3e1a2ed116bd0:-1975978418,8cdd22d12377b300bd9f9f6aa99dadda:-1389418344,e7ad2e91a177b3007f0171fbcdae6eb1:330235568</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-09 10:50:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>28acc4f41ec44ebd88c5e2c7e2fcdc79</sys_id>
+        <sys_metadata>0c0d6e51db77b300a7fe8632399619e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERF Validate Amount</sys_name>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_parent display_value="reimbursment2">2d713515db73b300a7fe863239961917</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_scope_delete display_value="">1d4d7b595e9c4dceb39f6a5b0d0eee04</sys_scope_delete>
+        <sys_update_name>sys_script_client_0c0d6e51db77b300a7fe8632399619e4</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0c0d6e51db77b300a7fe8632399619e4">49617a95db77b300a7fe86323996192b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 10:50:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

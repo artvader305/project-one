@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_impact</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ERF Priority / Impact </name>
+        <order/>
+        <script><![CDATA[//Creating onChange that displays fields that are actually relevant to Request Type value
+
+function onChange(control, oldValue, newValue, isLoading, isTemplate){
+    if(isLoading || newValue === '') {
+        return;
+    }
+
+    var impact = g_form.getValue('priority');
+    //clear all the choices from the what needed field
+    g_form.clearOptions('priority');
+
+    if (newValue === 'high'){
+
+        g_form.addOption('priority', '3', '3 - Moderate');
+        
+    }
+
+    if (newValue == 'medium'){
+
+        g_form.addOption('priority', '4', '4 - Low');
+        
+    }
+
+    if (newValue == 'low'){
+
+        g_form.addOption('priority', '5', '5 - Planning');
+        
+    }
+	
+
+    if (isLoading && !g_form_isNewRecord()){
+        g_form.setValue('priority', impact);
+    }
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 22:21:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5679fef0dbb73300a7fe863239961918</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>ERF Priority / Impact </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_update_name>sys_script_client_5679fef0dbb73300a7fe863239961918</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-09 09:15:20</sys_updated_on>
+        <table>x_393641_employee_reimbursment2</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

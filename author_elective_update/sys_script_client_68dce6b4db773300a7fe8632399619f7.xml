@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_other_costs</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Amount Exceeds Budget</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue == '') {
+	return;
+   }
+	
+	//g_form.getValue('u_total_cost');
+	//g_form.showFieldMsg('u_total_cost', getMessage('The amount is ' + u_total_cost));
+	
+// 	var number = g_form.getValue('u_total_cost');
+	
+// 	g_form.showFieldMsg("The number is " + 'number');
+	
+	g_form.showFieldMsg(g_form.getIntValue('u_other_costs'));
+	
+}
+	]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 21:21:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>68dce6b4db773300a7fe8632399619f7</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Amount Exceeds Budget</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_update_name>sys_script_client_68dce6b4db773300a7fe8632399619f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 17:41:16</sys_updated_on>
+        <table>x_393641_employee_reimbursement</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</application>
+        <file_path/>
+        <instance_id>16410a3fdbcafbc80ae3ac44d496197c</instance_id>
+        <instance_name>dev88690</instance_name>
+        <name>sys_script_client_68dce6b4db773300a7fe8632399619f7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_other_costs&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Amount Exceeds Budget&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue == '') {
+	return;
+   }
+	
+	//g_form.getValue('u_total_cost');
+	//g_form.showFieldMsg('u_total_cost', getMessage('The amount is ' + u_total_cost));
+	
+// 	var number = g_form.getValue('u_total_cost');
+	
+// 	g_form.showFieldMsg("The number is " + 'number');
+	
+	g_form.showFieldMsg(g_form.getIntValue('u_other_costs'));
+	
+}
+	]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-07 21:21:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;68dce6b4db773300a7fe8632399619f7&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Amount Exceeds Budget&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee"&gt;1420bd3bdb633300a7fe86323996195f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Travel Reimbursement"&gt;1420bd3bdb633300a7fe86323996195f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_68dce6b4db773300a7fe8632399619f7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-08 17:41:16&lt;/sys_updated_on&gt;&lt;table&gt;x_393641_employee_reimbursement&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1262329863</payload_hash>
+        <record_name>Amount Exceeds Budget</record_name>
+        <reverted_from/>
+        <source>1820bd3bdb633300a7fe863239961961</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 17:41:16</sys_created_on>
+        <sys_id>28e58785dbb77300a7fe863239961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d11f732b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 17:41:16</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>68e54f4599b77300732098292ff26f3b</update_guid>
+        <update_guid_history>68e54f4599b77300732098292ff26f3b:-1262329863,27b5438514b77300c0ad5e064848267f:425143322,e455474587b77300d22a574d98b9f1df:894465844,43d443c1f5b77300a322dec978b11de3:-48585484,c1533a3c37773300bb283cbf4232589c:-2065604518,c113323cd777330023cabba6c79f9061:-849598868,1be2f23cc377330071b83709e60ee6a6:-1181067249,36b27af8df7733005178e8fc00489abe:890429278,f5103a78127733002b5342b6c662455b:394831788,62ce263857773300f6671e5514e56588:-1087108915</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 17:42:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>81a9f7ee754643178e3e1fe0c7c5c421</sys_id>
+        <sys_metadata>68dce6b4db773300a7fe8632399619f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Amount Exceeds Budget</sys_name>
+        <sys_package display_value="Employee Travel Reimbursement" source="x_393641_employee">1420bd3bdb633300a7fe86323996195f</sys_package>
+        <sys_parent display_value="reimbursement">4b40fdfbdb633300a7fe863239961978</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Travel Reimbursement">1420bd3bdb633300a7fe86323996195f</sys_scope>
+        <sys_scope_delete display_value="">1d4d7b595e9c4dceb39f6a5b0d0eee04</sys_scope_delete>
+        <sys_update_name>sys_script_client_68dce6b4db773300a7fe8632399619f7</sys_update_name>
+        <sys_update_version display_value="sys_script_client_68dce6b4db773300a7fe8632399619f7">28e58785dbb77300a7fe863239961983</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 17:42:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
